@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Stupid Coaching</title>
+  </head>
+
+  </body>
+   <%coach_happy = ""
+   coach_answer_one = "Silly question, get dressed and go to work!"
+   coach_answer_two = "I don't care, get dressed and go to work!"%>
+
+    <%if your_message.downcase == "i am going to work right now!"
+        coach_happy
+      elsif your_message.end_with?("?")
+        coach_answer_one
+      else
+        coach_answer_two
+      end%>
+  </body>
+<html>
